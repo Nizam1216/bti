@@ -1,12 +1,27 @@
 .App {
   text-align: center;
 }
-
+.heading{
+  color: #000;
+text-align: left;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 96px */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.sub-text{
+  color: #0048ff;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

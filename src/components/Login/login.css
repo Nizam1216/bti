@@ -1,0 +1,210 @@
+.admin_login_main_div{
+    overflow-x: hidden;
+}
+
+
+.admin_login_form_div,.admin_login_images_div{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.empty_div{
+    height: 25vh;
+}
+.admin_login_form{
+    width: 70%;
+    
+    margin-left: 30%;
+}
+.admin_login_form_title{
+    display: flex;
+    justify-content: center;
+    color: #0E8E60;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.lbl{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.dgsignupbtn {
+    width: 527px;
+height: 58px;
+flex-shrink: 0;
+    color: #E7F6EA;
+text-align: center;
+font-family: Inter;
+font-size: 24px !important;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.torchimage{
+    width: 120px !important;
+    margin-left: 20%;
+}
+.admin_login_form .dgsignupbtn:hover{
+color: #0E8E60!important;
+background-color: #FFF!important;
+border: 1px solid #0E8E60;
+}
+.p-inputtext:focus, .p-inputtext:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #0E8E60 !important; /* Set the border color to your preferred color */
+  }
+
+  .p-inputtext:enabled:hover, .p-inputtext:active {
+    border-color: #0E8E60 !important;
+  }
+.admin_login_form_checkbox_div .p-checkbox .p-checkbox-box:hover {
+border-color: #0E8E60 !important;
+}
+.p-checkbox:focus, .p-checkbox:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #0E8E60 !important;
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+    border-color: #0E8E60 !important;
+    background: #0E8E60 !important;
+    color: #ffffff;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus{
+    box-shadow: none !important;
+    border-color: #0E8E60 !important;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover{
+    border-color: #0E8E60 !important;
+}
+.p-checkbox .p-checkbox-box.p-highlight:not(.p-disabled):hover {
+    border-color: #0E8E60 !important;
+    background: #0E8E60 !important;
+    color: #ffffff;
+}
+.p-checkbox .p-checkbox-box.p-highlight {
+    border-color: #0E8E60 !important;
+    background: #0E8E60 !important;
+}
+
+/* Remove outline when PrimeReact button is clicked */
+.p-button:focus, .p-button:focus-visible .p-button:active{
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #E7F6EA !important;
+    color: #0E8E60 !important;
+    /* Add any other desired styles here */
+  }
+
+  /* Remove outline when PrimeReact checkbox is focused */
+/* Remove outline when PrimeReact checkbox is focused */
+.p-checkbox:focus, .p-checkbox:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important; /* Optional: remove border color on focus */
+    /* Add any other desired styles here */
+  }
+  
+.admin_login_form_checkbox_text{
+    color: rgba(0, 0, 0, 0.90);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.admin_login_torch_image_div{
+    height: 40%;
+    margin-left: 10%;
+}
+.admin_login_images_div{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.admin_login_form_register{
+    color: #0E8E60;
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+.admin_login_images_div img{
+    padding-left: 90%;
+}
+
+@media screen and (max-width:767px) {
+    .admin_login_main_div {
+        flex-direction: column-reverse;
+    }
+    .admin_login_form_div,.admin_login_images_div{
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .admin_login_all_images_div{
+        width: 100%;
+        
+    }
+    .admin_login_form{
+        width: 90%;
+        padding-top: -16%;
+        margin-left: 0%;
+    }
+    .empty_div{
+       height: 1vh;
+       margin-top: -180px;
+    }
+.admin_login_images_div{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_login_images_div img{
+    padding-left: 10% !important;
+    margin-left: 0%;
+}
+       
+       
+.admin_login_torch_image_div img{
+    width: 30%;
+}
+.admin_login_form_title{
+    display: flex;
+    justify-content: center;
+    color: #0E8E60;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.admin_login_form_register{
+    color: #0E8E60;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+}
